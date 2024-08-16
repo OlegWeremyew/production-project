@@ -6,7 +6,7 @@
 Make sure to install the dependencies:
 
 ```bash
-yarn
+npm i
 ```
 
 ## Development Server
@@ -14,7 +14,7 @@ yarn
 Start the development server on `http://localhost:3000`
 
 ```bash
-yarn run dev
+npm run dev
 ```
 
 ## Production
@@ -22,5 +22,5 @@ yarn run dev
 Build the application for production:
 
 ```bash
-yarn run build
+npm run build
 ```
