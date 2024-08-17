@@ -35,7 +35,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'react/require-default-props': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-props-no-spreading': 'off',
     'react/function-component-definition': 'off',
     'no-shadow': 'off',
     'import/extensions': 'off',
@@ -43,7 +43,7 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'react/button-has-type': 'warn',
     'i18next/no-literal-string': ['error', { markupOnly: true }],
-    'max-len': ['error', { ignoreComments: true }],
+    'max-len': ['warn', { ignoreComments: true }],
   },
   globals: {
     __IS_DEV__: true,
